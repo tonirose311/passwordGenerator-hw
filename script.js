@@ -13,15 +13,22 @@ function writePassword() {
   passwordText.value = password;
 
 
-  //prompt for length of password
-  
-  
-  
-  //prompt for password criteria: Uppercase, Lowercase, Numbers, Special Characters
 
 
   
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+//prompt for length of password
+var passLength = prompt("How long do you want your password to be? (8-128)");
+
+//confirms for password criteria: Uppercase, Lowercase, Numbers, Special Characters
+var bigLetters = confirm ("Do you want to include *Uppercase Letters* ?")
+var smallLetters = confirm ("Do you want to include *Lowercase Letters* ?")
+var specialCharacters = confirm ("Do you want to include *Special Characters* ?")
+var numbers = confirm ("Do you want to include *Numbers* ?")
+
+
 
 }
