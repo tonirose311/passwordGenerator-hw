@@ -2,8 +2,8 @@
 var generateBtn = document.querySelector("#generate");
 var bigLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var smallLetters = "abcdefghijklmnopqrstuvwxyz";
-var numbers = "1234567890"
-var specialCharacters = "!@#$%^&*()_-=+"
+var numbers = "1234567890";
+var specialCharacters = "!@#$%^&*()_-=+";
 
 // Write password to the #password input
 function writePassword() {
@@ -11,6 +11,14 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+
+
+  //prompt for length of password
+  
+  
+  
+  //prompt for password criteria: Uppercase, Lowercase, Numbers, Special Characters
+
 
   
 // Add event listener to generate button
